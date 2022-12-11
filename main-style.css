@@ -1,0 +1,15 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/blank-blue-halftone-background_53876-99003.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
+div{
+    text-align: center;
+    color: darkslategrey;
+    font-family: Georgia;
+    font-size: 20em;
+    font-weight: 200em;
+}
