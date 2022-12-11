@@ -1,8 +1,8 @@
 main{
     background-image: url(https://img.freepik.com/free-vector/blank-blue-halftone-background_53876-99003.jpg?w=2000);
     background-repeat: no-repeat;
-    background-position: auto;
-    background-size: cover;
+    background-position: center;
+    background-size: auto;
     background-attachment: fixed;
     background-blend-mode: lighten;
 }
