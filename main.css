@@ -6,9 +6,9 @@ body{
     background-attachment: fixed;
     background-blend-mode: lighten;
 }
-.header{
+div{
     text-align: center;
     color: darkslategrey;
-    font-family: Arial;
-    font-size: 40px;
+    font-family: times new roman;
+    font-size: 2px;
 }
