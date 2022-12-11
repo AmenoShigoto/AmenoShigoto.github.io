@@ -6,10 +6,10 @@ body{
     background-attachment: fixed;
     background-blend-mode: lighten;
 }
-div{
+.header{
     text-align: center;
     color: darkslategrey;
     font-family: Georgia;
-    font-size: 20em;
-    font-weight: 20em;
+    font-size: 2rem;
+    font-weight: 2rem;
 }
