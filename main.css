@@ -1,6 +1,15 @@
 body{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3798.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+.header{
     border-style: solid;
     padding: 0;
     border: 2px;
-    margin: 0;   
+    margin: 0;
 }
