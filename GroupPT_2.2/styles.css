@@ -7,9 +7,7 @@
 }
 body{
     min-height: 100vh;
-    background: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/318857456_682445770007248_2030463477124358815_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHfrW5P_oI7pNkec_92sDEhDbke9kC_QcQNuR72QL9BxDYnmHlqmRRZnwjhRN5KVJ0TykfmGQyVwSIJeoVAolpT&_nc_ohc=jDH-Ya3bREUAX_t2abH&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQjIvV-D0d_BwPE4UQRMvQy_FwoDkeFqzWOLlOKJwC2ew&oe=63BEAA5A') no-repeat fixed;
-    background-size: cover;
-    background-position: center center;
+    background: linear-gradient(to bottom right, red, orange);
 }
 header{
     position: absolute;
