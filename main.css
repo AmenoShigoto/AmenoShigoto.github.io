@@ -2,14 +2,24 @@ body{
     margin: 0;
     width: 100%;
     padding: 0;
-    
 }
 .header{
-    border-style: solid;
-    padding: 0;
-    border: 2px;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 10px;
+    font-weight: 400;
+    font-family: Times New Roman;
+    color: black;
     background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3798.jpg?w=2000);
-    background-repeat: no-repeat;
-    background-size: fill
+    background-size: cover;
+    opacity: 0.7;
+}
+.header .primary .secondary{
+    text-align: center;
+    margin: auto;
 }
