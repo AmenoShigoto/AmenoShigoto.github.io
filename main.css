@@ -15,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-items: center;
     width: 800px;
     height: 300px;
     padding: 20px;
@@ -25,10 +26,13 @@ body{
     color: black;
 }
 .primary{
+    font-size: 50px;
     font-weight: 600;
     letter-spacing: 2;
 }
 .secondary{
+    font-size; 20px;
+    display: block;
     font-weight: 200;
     letter-spacing: 0;
 }
