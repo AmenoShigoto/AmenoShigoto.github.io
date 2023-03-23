@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100;
+    width: 100vh;
+    background: linear-gradient(to bottom right, white, lightblue) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+tr{
+    padding: 2px;
+}
+td{
+    border: 1px solid black;
+    padding: 15px;
+}

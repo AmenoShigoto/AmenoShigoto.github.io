@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script>
+        let firstname = prompt('Please Type Your First Name');
+        let middlename = prompt('Please Type Your Middle Name');
+        let surname = prompt('Please Type Your Surname')
+        let fullname = firstname + ' ' + middlename + ' ' + surname;
+        let int1 = prompt('Please Type Your First Integer');
+        let int2 = prompt('Please Type Your First Integer');
+        let cel = (parseInt(int1) - 32) * 0.5556;
+        let far = (parseInt(int2) * 1.8) + 32;
+        document.write(
+            'Good Day,'+fullname+'<br><br>'+
+            '<h1>WELCOME TO MY SIMPLE CALCULATOR</h1><br><br><br><br>'+
+            'You have Entered'+int1+'<br>'+
+            'You have Entered'+int2+'<br><br><br>'+
+            'I will Convert the 1st Integer to Degrees Celcius<br>and it is equivalent to:'+cel+'<br><br>'+
+            'I will Convert the 2nd Integer to Degrees Celcius<br>and it is equivalent to:'+far
+        );
+    </script>
+</body>
+
+</html>

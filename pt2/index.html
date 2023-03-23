@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpo--rt" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+</body>
+<script>
+    let tri1 = prompt('Please Type an Integer as the First Side of a triangle.');
+    let tri2 = prompt('Please Type an Integer as the Second Side of a triangle.');
+    let tri3 = prompt('Please Type an Integer as the Third Side of a triangle.');
+    if (tri1 == tri2 == tri3) {
+        document.write('<p class="equi">Equilateral Triangle</p>');
+    }
+    else if (tri1 != tri2 == tri3 || tri1 == tri2 != tri3 || tri2 == tri1 != tri3) {
+        document.write('<p class="iso">Isosceles Triangle</p>');
+    }
+    else {
+        document.write('<p class="scal">Scalene Triangle</p>');
+    }
+</script>
+</html>

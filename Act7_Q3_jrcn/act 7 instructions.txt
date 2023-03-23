@@ -1,0 +1,6 @@
+create a function that will let the user type a sentence and take it as an input.
+
+Display the ff.
+- number of vowels of words in a string
+- what is the longest word
+- what is the shortest word
